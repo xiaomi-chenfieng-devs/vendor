@@ -1,0 +1,66 @@
+{
+	"##":"质感(默认)模式",
+	"Type":"Effect",
+	"ExtraOption":
+	{
+		"SmoothDegreeList":[
+			{
+				"ParamFlag": 201,
+				"DegreeParam": {
+	                "FemaleFactor": 1.0,
+		            "MaleFactor": 0.5,
+		            "ChildFactor":0.3,
+		            "YouthFactor":0.6,
+		            "ElderlyFactor":1.0,
+		            "OlderFactor":0.5,
+	                "RuleType": 0,
+	                "DegreeFactor": 0.7,
+	                "NonlinearUIData": [
+	                    0.0,
+	                    1.0
+	                ],
+	                "NonlinearValueData": [
+	                    0.0,
+	                    1.0
+	                ]
+	            }
+			},
+			{
+				"##":"默认质感瘦脸有2个效果，眉毛(0->-0.2)，facelitf偏移图(0->1.0)",
+				"ParamFlag": 200,
+				"DegreeParam": {
+	                "FemaleFactor":1.0,
+		            "MaleFactor":0.5,
+		            "ChildFactor":0.3,
+		            "YouthFactor":0.6,
+		            "ElderlyFactor":1.0,
+		            "OlderFactor":0.5,
+	                "RuleType": 0,
+	                "DegreeFactor": 1.0,
+	                "NonlinearUIData": [
+	                    0.0,
+	                    1.0
+	                ],
+	                "NonlinearValueData": [
+	                    0.0,
+	                    1.0
+	                ]
+	            }
+			}
+		],
+		"UVMapping": false
+	},
+	"TrueSight":
+	[
+		{
+			"ConfigurePath":"Effects/1_ModeNative/effect_preview.json",
+			"Index":0,
+			"Mode":"Preview"
+		},
+		{
+			"ConfigurePath":"Effects/1_ModeNative/effect_capture.json",
+			"Index":1,
+			"Mode":"Capture"
+		}
+	]
+}

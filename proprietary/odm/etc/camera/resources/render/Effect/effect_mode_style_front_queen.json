@@ -1,0 +1,34 @@
+{
+	"##":"风格前置-皇后模式",
+	"Type":"EffectCategory",
+	"TrueSight":
+	[
+		{
+			"ParameterPath":"Parameter/mode_cartoon.json"
+		},
+        {
+            "ConfigurePath":"5_DLRetouch/mode_cartoon.json",
+            "Index":5
+        },
+		{
+			"ConfigurePath":"20_FaceRetouch/mode_cartoon.json",
+			"Index":20
+		},
+		{
+			"ConfigurePath":"30_BasicRetouch/mode_base.json",
+			"Index":30
+		},
+		{
+			"ConfigurePath":"50_SkinTone/mode_moistening.json",
+			"Index":50
+		},
+		{
+			"ConfigurePath":"60_Makeup/mode_Queen.json",
+			"Index":60
+		},
+		{
+			"ConfigurePath":"70_FacialRefine/mode_queen.json",
+			"Index":70
+		}
+	]
+}

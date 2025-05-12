@@ -1,0 +1,21 @@
+{
+    "##":"风格-漫画妆",
+    "Type": "Effect",
+    "ExtraOption":
+    {
+        "EnvLightType": 1,
+        "EnableGenderMakeup":false
+    },
+    "TrueSight": [
+        {
+            "ConfigurePath": "Effects/0_ModeCartoon/effect_preview.json",
+            "Index": 0,
+            "Mode":"Preview"
+        },
+        {
+            "ConfigurePath": "Effects/0_ModeCartoon/effect_capture.json",
+            "Index": 1,
+            "Mode":"Capture"
+        }
+    ]
+}

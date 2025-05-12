@@ -1,0 +1,21 @@
+{
+	"##":"漫画模式",
+	"Type":"Effect",
+	"ExtraOption":
+	{
+		"RetouchFactorType": 0
+	},
+	"TrueSight":
+	[
+		{
+			"ConfigurePath":"Effects/0_Spotless/effect_default.json",
+			"Index":0,
+			"Mode":"Preview"
+		},
+		{
+			"ConfigurePath":"Effects/8_ModeCartoon/effect.json",
+			"Index":1,
+			"Mode":"All"
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"##":"风格-漫画模式",
+	"Type":"Effect",
+	"ExtraOption":
+	{
+		"##":"公主风格模式瘦脸系数均为1，不需要进行渐变处理",
+		"UVMapping": false
+	},
+	"TrueSight":
+	[
+		{
+			"ConfigurePath":"Effects/10_ModeQueen/effect_preview.json",
+			"Index":0,
+			"Mode":"Preview"
+		},
+		{
+			"ConfigurePath":"Effects/10_ModeQueen/effect_capture.json",
+			"Index":0,
+			"Mode":"Capture"
+		}
+	]
+}

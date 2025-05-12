@@ -1,0 +1,64 @@
+{
+	"##":"少年模式",
+	"Type":"Effect",
+	"ExtraOption":
+	{
+		"SmoothDegreeList":[
+			{
+				"ParamFlag": 201,
+				"DegreeParam": {
+	                "FemaleFactor": 1.0,
+		            "MaleFactor": 0.5,
+		            "ChildFactor":0.3,
+		            "YouthFactor":0.6,
+		            "ElderlyFactor":1.0,
+		            "OlderFactor":0.5,
+	                "RuleType": 0,
+	                "DegreeFactor": 0.7,
+	                "NonlinearUIData": [
+	                    0.0,
+	                    1.0
+	                ],
+	                "NonlinearValueData": [
+	                    0.0,
+	                    1.0
+	                ]
+	            }
+			},
+			{
+				"##":"少年瘦脸有2个效果，facelift偏移图(0->1.0, 只男生生效)，facelift_female偏移图(0->1.0，除男生外生效)",
+				"ParamFlag": 200,
+				"DegreeParam": {
+	                "FemaleFactor":1.0,
+		            "MaleFactor":1.0,
+		            "ChildFactor":0.3,
+		            "YouthFactor":0.6,
+		            "ElderlyFactor":1.0,
+		            "OlderFactor":0.5,
+	                "RuleType": 1,
+	                "DegreeFactor": 1.0,
+	                "NonlinearUIData": [
+	                    0.0,0.3,1.0
+	                ],
+	                "NonlinearValueData": [
+	                    0.0,0.5,1.0
+	                ]
+	            }
+			}
+		],
+		"UVMapping": false
+	},
+	"TrueSight":
+	[
+		{
+			"ConfigurePath":"Effects/7_ModeYouth/effect_preview.json",
+			"Index":0,
+			"Mode":"Preview"
+		},
+		{
+			"ConfigurePath":"Effects/7_ModeYouth/effect_capture.json",
+			"Index":0,
+			"Mode":"Capture"
+		}
+	]
+}

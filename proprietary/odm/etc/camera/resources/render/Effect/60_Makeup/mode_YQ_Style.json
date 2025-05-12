@@ -1,0 +1,33 @@
+{
+	"##":"风格-元气妆(男生、儿童不生效)",
+	"Type":"Effect",
+	"ExtraOption":
+	{
+		"EnvLightType": 1,
+		"EnableGenderMakeup":true,
+		"MaleMakeupFlag":306
+	},
+	"TrueSight":
+	[
+		{
+			"ConfigurePath":"Effects/6_ModeYQ/effect_style_preview.json",
+			"Index":0,
+			"Mode":"Preview"
+		},
+		{
+			"ConfigurePath":"Effects/0_ModeMAN/effect_style_preview.json",
+			"Index":1,
+			"Mode":"Preview"
+		},
+		{
+			"ConfigurePath":"Effects/6_ModeYQ/effect_style_capture.json",
+			"Index":2,
+			"Mode":"Capture"
+		},
+		{
+			"ConfigurePath":"Effects/0_ModeMAN/effect_style_capture.json",
+			"Index":3,
+			"Mode":"Capture"
+		}
+	]
+}

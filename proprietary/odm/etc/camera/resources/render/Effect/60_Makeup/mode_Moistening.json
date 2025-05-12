@@ -1,0 +1,32 @@
+{
+	"##":"水润妆容",
+	"Type":"Effect",
+	"ExtraOption":
+	{
+		"EnvLightType": 0,
+		"EnableGenderMakeup":false
+	},
+	"TrueSight":
+	[
+		{
+			"ConfigurePath":"Effects/0_ModeMoisteningMale/effect_preview.json",
+			"Index":0,
+			"Mode":"Preview"
+		},
+		{
+			"ConfigurePath":"Effects/0_ModeMoisteningFemale/effect_preview.json",
+			"Index":1,
+			"Mode":"Preview"
+		},
+		{
+			"ConfigurePath":"Effects/0_ModeMoisteningMale/effect_capture.json",
+			"Index":2,
+			"Mode":"Capture"
+		},
+		{
+			"ConfigurePath":"Effects/0_ModeMoisteningFemale/effect_capture.json",
+			"Index":3,
+			"Mode":"Capture"
+		}
+	]
+}

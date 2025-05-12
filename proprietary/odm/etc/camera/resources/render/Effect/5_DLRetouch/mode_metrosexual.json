@@ -1,0 +1,267 @@
+{
+	"##":"型男模式: E2E祛斑祛痘(预览&拍后) + 去纹(拍后) + E2E祛颈纹(拍后) + 匀肤(拍后) + 眉毛去杂乱(拍后) + E2E肤色统一(拍后) + 酒窝保护(拍后)",
+	"Type":"Effect",
+	"TrueSight":
+	[
+		{
+			"Index":1,
+			"Mode":"Preview",
+			"E2ESpotless":
+			{
+				"Enable":true,
+				"DefaultDegree": 0.4,
+	            "DegreeParam": {
+	                "FemaleFactor": 1.0,
+	                "MaleFactor": 0.6,
+	                "ChildFactor": 0.5,
+					"YouthFactor": 0.7,
+					"ElderlyFactor": 1.0,
+	                "OlderFactor": 0.6,
+	                "RuleType": 1,
+	                "DegreeFactor": 1.0,
+	                "NonlinearUIData": [
+	                    0.0,0.2,1.0
+	                ],
+	                "NonlinearValueData": [
+	                    0.0,0.9,1.0
+	                ]
+	            }
+			}
+		},
+		{
+			"Index":2,
+			"Mode":"Capture",
+			"E2ESpotless":
+			{
+				"Enable":true,
+				"EnableLight": false,
+	            "KeepNevus": true,
+	            "ProtectNevus": true,
+	            "RemoveNevus": false,
+	            "ProtectBackgroud": false,
+	            "MinNevus": 3,
+	            "DilateNevus": 3,
+	            "NevusThrdOut": 64,
+	            "NevusThrdIn": 64,
+	            "DefaultDegree": 0.4,
+	            "DegreeParam": {
+	                "FemaleFactor": 1.0,
+	                "MaleFactor": 0.6,
+	                "ChildFactor": 0.5,
+					"YouthFactor": 0.7,
+					"ElderlyFactor": 1.0,
+	                "OlderFactor": 0.6,
+	                "RuleType": 1,
+	                "DegreeFactor": 1.0,
+	                "NonlinearUIData": [
+	                    0.0,0.2,1.0
+	                ],
+	                "NonlinearValueData": [
+	                    0.0,0.9,1.0
+	                ]
+	            }
+	        }
+		},
+		{
+			"Index":3,
+			"Mode":"Capture",
+			"E2EWrinkle":
+			{
+				"Enable":true,
+				"DefaultDegree": 1.0,
+				"ParamFlag":-1,
+				"ForeHeadDegreeParam": {
+	                "FemaleFactor": 1.0,
+	                "MaleFactor": 0.6,
+	                "ChildFactor": 0.0,
+					"YouthFactor": 0.0,
+					"ElderlyFactor": 0.8,
+	                "OlderFactor": 0.2,
+	                "RuleType": 1,
+	                "DegreeFactor": 1.0,
+	                "NonlinearUIData": [
+	                    0.0,0.2,1.0
+	                ],
+	                "NonlinearValueData": [
+	                    0.0,0.8,1.0
+	                ]
+	            },
+	            "EyeLineDegreeParam": {
+	                "FemaleFactor": 1.0,
+	                "MaleFactor": 0.6,
+	                "ChildFactor": 0.0,
+					"YouthFactor": 0.0,
+					"ElderlyFactor": 0.3,
+	                "OlderFactor": 0.2,
+	                "RuleType": 1,
+	                "DegreeFactor": 1.0,
+	                "NonlinearUIData": [
+	                    0.0,0.2,1.0
+	                ],
+	                "NonlinearValueData": [
+	                    0.0,0.5,1.0
+	                ]
+	            },
+	            "LegalDegreeParam": {
+	                "FemaleFactor": 1.0,
+	                "MaleFactor": 0.6,
+	                "ChildFactor": 0.0,
+					"YouthFactor": 0.0,
+					"ElderlyFactor": 0.3,
+	                "OlderFactor": 0.2,
+	                "RuleType": 1,
+	                "DegreeFactor": 1.0,
+	                "NonlinearUIData": [
+	                    0.0,0.2,1.0
+	                ],
+	                "NonlinearValueData": [
+	                    0.0,0.5,1.0
+	                ]
+	            },
+	            "DarkCircleDegreeParam": {
+	                "FemaleFactor": 1.0,
+	                "MaleFactor": 0.6,
+	                "ChildFactor": 0.4,
+					"YouthFactor": 0.6,
+					"ElderlyFactor": 0.8,
+	                "OlderFactor": 0.2,
+	                "RuleType": 1,
+	                "DegreeFactor": 1.0,
+	                "NonlinearUIData": [
+	                    0.0,0.2,1.0
+	                ],
+	                "NonlinearValueData": [
+	                    0.0,1.0,1.0
+	                ]
+	            }
+			}
+		},
+		{
+			"Index":4,
+			"Mode":"Capture",
+			"E2ENeckLine":
+			{
+				"Enable":true,
+				"FaceProtect": true,
+				"ParamFlag":-1,
+				"DefaultDegree":1.0,
+				"DegreeParam": {
+	                "FemaleFactor": 1.0,
+	                "MaleFactor": 0.5,
+	                "ChildFactor": 0.0,
+					"YouthFactor": 0.4,
+					"ElderlyFactor": 0.3,
+	                "OlderFactor": 0.0,
+	                "RuleType": 0,
+	                "DegreeFactor": 1.0,
+	                "NonlinearUIData": [
+	                    0.0,
+	                    1.0
+	                ],
+	                "NonlinearValueData": [
+	                    0.0,
+	                    1.0
+	                ]
+	            }
+			}
+		},
+		{
+			"Index":5,
+			"Mode":"Capture",
+			"SkinUnify":
+			{
+				"Enable":true,
+				"ParamFlag":1,
+				"DefaultDegree":0.4,
+				"DegreeParam": {
+	                "FemaleFactor": 1.0,
+	                "MaleFactor": 0.5,
+	                "ChildFactor": 0.2,
+					"YouthFactor": 0.6,
+					"ElderlyFactor": 0.4,
+	                "OlderFactor": 0.2,
+	                "RuleType": 0,
+	                "DegreeFactor": 0.5,
+	                "NonlinearUIData": [
+	                    0.0,
+	                    1.0
+	                ],
+	                "NonlinearValueData": [
+	                    0.0,
+	                    1.0
+	                ]
+	            }
+			}
+		},
+		{
+			"Index":6,
+			"Mode":"Capture",
+			"Eyebrow":
+			{
+				"Enable":true,
+				"DegreeParam": {
+	                "FemaleFactor": 1.0,
+	                "MaleFactor": 1.0,
+	                "ChildFactor": 0.0,
+					"YouthFactor": 0.0,
+					"ElderlyFactor": 1.0,
+	                "OlderFactor": 1.0,
+	                "RuleType": 0,
+	                "DegreeFactor": 1.0,
+	                "NonlinearUIData": [
+	                    0.0,
+	                    1.0
+	                ],
+	                "NonlinearValueData": [
+	                    0.0,
+	                    1.0
+	                ]
+	            }
+			}
+		},
+		{
+			"Index":7,
+			"Mode":"Capture",
+			"E2ESkinTuner":
+			{
+				"Enable":true,
+				"ProtectCheck":true,
+				"MinFaceFactor":0.013,
+				"DefaultDegree":0.4,
+				"DegreeParam": {
+	                "FemaleFactor": 1.0,
+	                "MaleFactor": 0.8,
+	                "ChildFactor": 0.7,
+					"YouthFactor": 0.7,
+					"ElderlyFactor": 1.0,
+	                "OlderFactor": 1.0,
+	                "RuleType": 1,
+	                "DegreeFactor": 1.0,
+	                "NonlinearUIData": [
+	                    0.0,
+	                    0.4,
+	                    1.0
+	                ],
+	                "NonlinearValueData": [
+	                    0.0,
+	                    0.5,
+	                    0.7
+	                ]
+	            }
+			}
+		},
+		{
+			"Index":8,
+			"Mode":"Capture",
+			"Dimple":
+			{
+				"Enable":true,
+				"Radius": 6,
+	            "Decay": 0.66,
+	            "AcneDegree": 0.0,
+	            "DnbDegree": 1.0,
+	            "SkintunerDegree": 1.0
+			}
+		}
+	]
+}

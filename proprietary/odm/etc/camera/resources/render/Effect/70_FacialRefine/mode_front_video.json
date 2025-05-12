@@ -1,0 +1,39 @@
+{
+	"##":"前置视频模式",
+	"Type":"Effect",
+	"ExtraOption":
+	{
+		"SmoothDegreeList":[
+			{
+				"ParamFlag": 201,
+				"DegreeParam": {
+	                "FemaleFactor": 1.0,
+		            "MaleFactor": 0.5,
+		            "ChildFactor":0.3,
+		            "YouthFactor":0.6,
+		            "ElderlyFactor":1.0,
+		            "OlderFactor":0.5,
+	                "RuleType": 0,
+	                "DegreeFactor": 0.7,
+	                "NonlinearUIData": [
+	                    0.0,
+	                    1.0
+	                ],
+	                "NonlinearValueData": [
+	                    0.0,
+	                    1.0
+	                ]
+	            }
+			}
+		],
+		"UVMapping": false
+	},
+	"TrueSight":
+	[
+		{
+			"ConfigurePath":"Effects/2_ModeFrontVideo/effect.json",
+			"Index":0,
+			"Mode":"Preview"
+		}
+	]
+}

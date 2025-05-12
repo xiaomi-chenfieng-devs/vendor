@@ -1,0 +1,31 @@
+{
+	"##":"风格前置-绝绝紫模式",
+	"Type":"EffectCategory",
+	"TrueSight":
+	[
+        {
+            "ConfigurePath":"5_DLRetouch/mode_native.json",
+            "Index":5
+        },
+		{
+			"ConfigurePath":"20_FaceRetouch/mode_native.json",
+			"Index":20
+		},
+		{
+			"ConfigurePath":"30_BasicRetouch/mode_base.json",
+			"Index":30
+		},
+		{
+			"ConfigurePath":"60_Makeup/mode_YQ_Style.json",
+			"Index":60
+		},	
+		{
+			"ConfigurePath":"65_Rule/mode_ZS.json",
+			"Index":65
+		},	
+		{
+			"ConfigurePath":"70_FacialRefine/mode_native.json",
+			"Index":70
+		}
+	]
+}

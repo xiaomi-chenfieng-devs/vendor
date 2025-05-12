@@ -1,0 +1,31 @@
+{
+	"Type":"ParameterCategory",
+	"Parameters":
+	{
+		"##": "后置滑杆关联操作",
+		"UniqueSlider":[
+			{
+				"##Mode##": "模式",
+				"Mode": "Preview",
+				"##UniqueDefaultValue##": "统一flag默认值，可不配置",
+				"UniqueDefaultValue": 1.0,
+				"##ProcessFlag##": "只做处理的flag",
+				"ProcessFlag": [20000],
+				"##FlagForward##": "转发flag",
+				"FlagForward":[4, 1, 0, 10, 301, 300, 200, 201],
+				"##NonLinearUIData##": "外部设置值",
+				"NonLinearUIData": [[0.0, 1.0], [0.0, 1.0], [0.0, 1.0],[0.0, 1.0], [0.0, 1.0], [0.0, 1.0], [0.0, 1.0], [0.0, 1.0]],
+				"##NonLinearValueData##": "非线性对应值",
+				"NonLinearValueData":[[0.4, 0.4], [0.6, 0.6], [1.0, 1.0],[0.2, 0.2],[1.0, 1.0], [1.0, 1.0], [1.0, 1.0], [1.0, 1.0]]
+			},
+			{
+				"Mode": "Capture",
+				"UniqueDefaultValue": 1.0,
+				"ProcessFlag": [20000],
+				"FlagForward":[4, 1, 0, 10, 10250, 301, 300, 200, 201, 10252],
+				"NonLinearUIData": [[0.0, 1.0], [0.0, 1.0], [0.0, 1.0], [0.0, 1.0], [0.0, 1.0], [0.0, 1.0], [0.0, 1.0],[0.0, 1.0],[0.0, 1.0],[0.0, 1.0]],
+				"NonLinearValueData":[[0.45, 0.45], [0.4, 0.4], [0.6, 0.6],[0.2, 0.2], [1.0, 1.0], [1.0, 1.0], [1.0, 1.0], [1.0, 1.0], [1.0, 1.0],[0.0, 1.0]]
+			}
+		]
+	}
+}

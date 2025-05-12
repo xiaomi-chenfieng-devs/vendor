@@ -1,0 +1,21 @@
+{
+    "##":"风格-皇后妆",
+    "Type": "Effect",
+    "ExtraOption":
+    {
+        "EnvLightType": 1,
+        "EnableGenderMakeup":false
+    },
+    "TrueSight": [
+        {
+            "ConfigurePath": "Effects/0_ModeQueen/effect_preview.json",
+            "Index": 0,
+            "Mode":"Preview"
+        },
+        {
+            "ConfigurePath": "Effects/0_ModeQueen/effect_capture.json",
+            "Index": 1,
+            "Mode":"Capture"
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+	"##":"后置人像模式-莱卡生动",
+	"Type":"Effect",
+	"ExtraOption":
+	{
+		"SmoothDegreeList":[
+			{
+				"ParamFlag": 201,
+				"DegreeParam": {
+	                "FemaleFactor": 1.0,
+		            "MaleFactor": 1.0,
+		            "ChildFactor":1.0,
+		            "YouthFactor":1.0,
+		            "ElderlyFactor":1.0,
+		            "OlderFactor":1.0,
+	                "RuleType": 0,
+	                "DegreeFactor": 0.4,
+	                "NonlinearUIData": [
+	                    0.0,
+	                    1.0
+	                ],
+	                "NonlinearValueData": [
+	                    0.0,
+	                    1.0
+	                ]
+	            }
+			},
+			{
+				"##":"后置人像模式瘦脸有4个偏移图效果，程度非线性(0.0,0.3,0.5)",
+				"ParamFlag": 200,
+				"DegreeParam": {
+	                "FemaleFactor":1.0,
+		            "MaleFactor":0.5,
+		            "ChildFactor":1.0,
+		            "YouthFactor":1.0,
+		            "ElderlyFactor":1.0,
+		            "OlderFactor":1.0,
+	                "RuleType": 1,
+	                "DegreeFactor": 1.0,
+	                "NonlinearUIData": [
+	                    0.0,
+						0.4,
+						1.0
+	                ],
+	                "NonlinearValueData": [
+	                    0.0,
+						0.3,
+						0.5
+	                ]
+	            }
+			}
+		],
+		"UVMapping": true
+	},
+	"TrueSight":
+	[
+		{
+			"ConfigurePath":"Effects/3_ModeRearPotraiture/effect_capture.json",
+			"Index":0,
+			"Mode":"Capture"
+		}
+	]
+}

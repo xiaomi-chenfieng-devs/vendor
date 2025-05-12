@@ -1,0 +1,27 @@
+{
+	"##":"风格前置-梦幻模式",
+	"Type":"EffectCategory",
+	"TrueSight":
+	[
+        {
+            "ConfigurePath":"5_DLRetouch/mode_moistening.json",
+            "Index":5
+        },
+		{
+			"ConfigurePath":"20_FaceRetouch/mode_moistening.json",
+			"Index":20
+		},
+		{
+			"ConfigurePath":"30_BasicRetouch/mode_base.json",
+			"Index":30
+		},
+		{
+			"ConfigurePath":"60_Makeup/mode_DY_Style.json",
+			"Index":60
+		},	
+		{
+			"ConfigurePath":"70_FacialRefine/mode_moistening.json",
+			"Index":70
+		}
+	]
+}
