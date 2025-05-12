@@ -12,7 +12,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/chenfeng/proprietary/odm/bin/hw/vendor.qti.camera.provider-service_64:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.qti.camera.provider-service_64 \
     vendor/xiaomi/chenfeng/proprietary/odm/bin/hw/vendor.xiaomi.hw.touchfeature-service:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.xiaomi.hw.touchfeature-service \
     vendor/xiaomi/chenfeng/proprietary/odm/bin/hw/vendor.xiaomi.sensor.citsensorservice.aidl:$(TARGET_COPY_OUT_ODM)/bin/hw/vendor.xiaomi.sensor.citsensorservice.aidl \
-    vendor/xiaomi/chenfeng/proprietary/odm/bin/mlipayd:$(TARGET_COPY_OUT_ODM)/bin/mlipayd \
     vendor/xiaomi/chenfeng/proprietary/odm/bin/test-nusensors:$(TARGET_COPY_OUT_ODM)/bin/test-nusensors \
     vendor/xiaomi/chenfeng/proprietary/odm/bin/toucheventcheck:$(TARGET_COPY_OUT_ODM)/bin/toucheventcheck \
     vendor/xiaomi/chenfeng/proprietary/odm/etc/MESubway_prebuilt.db:$(TARGET_COPY_OUT_ODM)/etc/MESubway_prebuilt.db \
